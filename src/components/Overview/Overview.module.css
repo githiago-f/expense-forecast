@@ -1,0 +1,24 @@
+.overviewContainer {
+  @apply col-span-3;
+}
+
+.content {
+  @apply
+    shadow-md
+    rounded-md
+    w-full
+    h-full
+    py-7
+    px-4
+    grid
+    grid-cols-3
+    gap-3;
+}
+
+.left {
+  @apply col-span-2;
+}
+
+.right {
+  @apply col-span-1;
+}

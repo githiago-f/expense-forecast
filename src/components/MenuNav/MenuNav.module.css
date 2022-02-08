@@ -1,0 +1,16 @@
+.navContainer {
+  @apply
+    pt-14
+    mb-12
+    flex
+    w-full
+    h-fit;
+}
+
+.brand {
+  @apply
+    text-lg
+    font-black
+    cursor-pointer
+    text-black;
+}
