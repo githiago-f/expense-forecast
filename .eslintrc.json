@@ -1,0 +1,53 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "ignorePatterns": [
+    ".eslintrc.json",
+    "**/*.hbs"
+  ],
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
+  "rules": {
+    "import/no-anonymous-default-export": "off",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "indent": [
+      "error",
+      2
+    ],
+    "dot-notation": "error",
+    "eqeqeq": "error",
+    "no-return-await": "error",
+    "eol-last": [
+      "error",
+      "always"
+    ],
+    "newline-per-chained-call": [
+      "error",
+      {
+        "ignoreChainWithDepth": 2
+      }
+    ],
+    "no-mixed-spaces-and-tabs": "error",
+    "object-curly-newline": [
+      "error",
+      {
+        "multiline": true
+      }
+    ]
+  }
+}
